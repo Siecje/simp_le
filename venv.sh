@@ -1,6 +1,6 @@
 #!/bin/sh
 
-virtualenv --no-site-packages venv
+virtualenv venv
 . ./venv/bin/activate
 for pkg in setuptools pip wheel
 do
